@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+html{
+    position: relative;
+}
+body{
+      
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+   
+}
+.slide-container{
+ 
+ height:100vh;
+ width:100%;
+ 
+ 
+ 
+
+}
+@keyframes slyde{
+    0%{
+        
+        transform:translateY(0%);
+    }
+    50%{
+        
+        transform:translateY(-100%);
+    }
+    100%{
+    
+        transform:translateY(-200%);
+    }
+    
+   
+}
+.bk-p{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 15rem;
+    letter-spacing:2rem;
+    color:lightgrey;
+    opacity: .075;
+}
+
+.slide1{
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.slide2{
+    width:100%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:black;
+}
+.slide3{
+    width:100%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:black;
+}
+
+
+.prof-links{
+    position: fixed;
+    height:100vh;
+    width: 100vw;
+  
+    top:0;
+    left: 0;
+    font-size: 5rem;
+     color:lightgray;
+    
+}
+
+.des-one,.des-two,.des-three{
+    font-family: 'Alfa Slab One', cursive;
+    position: fixed;
+    
+    
+    top:25rem;
+    right: 0;
+    font-size:2.5rem;
+     color:lightslategray;
+}
+.des-two{
+    top:27rem;
+}
+.des-three{
+    top:29rem;
+}
+.name{
+    display: none;
+    position: fixed;
+    top:2rem;
+    right: 1rem;
+    font-size:2.5rem;
+     color:lightgrey;
+}
+.projab{
+     font-family: 'Alfa Slab One', cursive;
+     font-size: 3rem;
+     color:lightslategray;
+     transition:transform .5s ease-in-out;
+}
+
+
+
+a{
+    transition: transform 1s ease-out;
+    display: inline-block;
+    color: lightslategrey;
+
+}
+a:hover{
+    transform:translateX(40px);
+    cursor: pointer;
+    color: palegreen;
+}
