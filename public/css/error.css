@@ -8,14 +8,23 @@
 body{
     background-color: black;
     display: flex;
+    height: 100vh;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color:lightgrey;
 }
 h1{
-    font-size: 3rem;
+    font-size: 6rem;
 }
 p{
-    font-size:2rem;
+    font-size:4rem;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    cursor: pointer;
+    color:lightslategray;
 }

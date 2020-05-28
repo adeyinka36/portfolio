@@ -1,5 +1,5 @@
 const Express = require('express');
-const bodyParser=require('bodyparser');
+const bodyParser=require('body-parser');
 const routes=require('./routes');
 const path= require('path');
 require('dotenv');
@@ -7,7 +7,7 @@ require('dotenv');
 const app = Express();
 const port = process.env.PORT||5000;
 
-
+app.use(Express.static('public'))
 app.use(routes)
 
 

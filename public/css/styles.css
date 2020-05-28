@@ -132,3 +132,21 @@ a:hover{
     cursor: pointer;
     color: palegreen;
 }
+
+@media(max-width:1050px){
+    .des-one{
+       top:50rem;
+    }
+    .des-two{
+     top: 53rem;
+    }
+    .des-three{
+       top: 56rem;
+    }
+}
+
+@media(max-width:600px){
+    .des-one,.des-two.des-three{
+        display: none;
+    }
+}

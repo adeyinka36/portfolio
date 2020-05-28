@@ -94,3 +94,11 @@ li a{
     justify-content: space-around;
     margin-bottom: 2rem;
 }
+
+
+
+@media(max-width:600px){
+    p{
+        font-size: 1rem;
+    }
+}
