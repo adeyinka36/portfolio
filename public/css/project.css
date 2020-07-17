@@ -337,6 +337,10 @@ transition:transform 1s ease-in
             span{
                 font-size: 1.4rem;
             }
+            .header-links{
+                display: flex;
+                justify-content: space-around;
+            }
         }
 
 
