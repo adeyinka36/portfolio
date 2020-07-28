@@ -177,6 +177,21 @@ transition:transform 1s ease-in
                 
                 
             }
+            .img5{
+                background-image: url('../images/animals.png');
+                transition:transform 1s ease-in
+                
+                }
+                
+                .img5:hover{
+                    cursor: pointer;
+                    transform:translate(15rem,-10rem) scale(1.5);
+                    animation-duration: 5s;
+                    background-image:url('../images/animals.png');
+                    
+                    
+                    
+                }
 
     li a{
         text-decoration: none;
