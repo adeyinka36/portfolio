@@ -193,6 +193,22 @@ transition:transform 1s ease-in;
                     
                 }
 
+                .koaPic{
+                    background-image: url('../images/koa1.png');
+                    transition:transform 1s ease-in;
+                    
+                    }
+                    
+    .koaPic:hover{
+                        cursor: pointer;
+                        transform:translate(15rem,-10rem) scale(1.5);
+                        animation-duration: 5s;
+                        background-image:url('../images/koa1.png');
+                        
+                        
+                        
+                    }
+
     li a{
         text-decoration: none;
         color: white;
@@ -225,7 +241,7 @@ transition:transform 1s ease-in;
     .projects-div p{
         font-family:Arial, Helvetica, sans-serif ;
     }
-    .one,.two,.three,.four{
+    .one,.two,.three,.four.five{
         width:100%;
         display: flex;
        
@@ -249,7 +265,7 @@ transition:transform 1s ease-in;
     
    
     
-    .one,.two,.three{
+    .one,.two,.three,.four{
         margin-bottom:6rem;
     }
     
@@ -338,6 +354,37 @@ transition:transform 1s ease-in;
                         
                         
                     }
+                    .img5{
+                        background-image: url('../images/animals.png');
+                        transition:transform 1s ease-in;
+                        
+                        }
+                        
+        .img5:hover{
+                            cursor: pointer;
+                            transform:translate(15rem,-10rem) scale(1.5);
+                            animation-duration: 5s;
+                            background-image:url('../images/animals.png');
+                            
+                            
+                            
+                        }
+        
+                        .koaPic{
+                            background-image: url('../images/koa1.png');
+                            transition:transform 1s ease-in;
+                            
+                            }
+                            
+            .koaPic:hover{
+                                cursor: pointer;
+                                transform:translate(15rem,-10rem) scale(1.5);
+                                animation-duration: 5s;
+                                background-image:url('../images/koa1.png');
+                                
+                                
+                                
+                            }
         
             li a{
                 text-decoration: none;
