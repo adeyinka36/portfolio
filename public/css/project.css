@@ -413,6 +413,9 @@ transition:transform 1s ease-in;
             .koaPic:hover,.img5:hover{
                 transform: scale(1)
             }
+            .proj-desc p, .proj-desc h3{
+                color: white;
+            }
         }
 
 
