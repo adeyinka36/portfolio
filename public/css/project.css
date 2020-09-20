@@ -407,10 +407,10 @@ transition:transform 1s ease-in;
             .img1:hover,.img2:hover,.img3:hover,.img4:hover,.img5:hover{
                 transition:none; 
             }
-            .koaPic{
+            .koaPic,.img5{
                 transition: none;
             }
-            .koaPic:hover{
+            .koaPic:hover,.img5:hover{
                 transform: scale(1)
             }
         }
