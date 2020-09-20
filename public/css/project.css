@@ -404,8 +404,14 @@ transition:transform 1s ease-in;
                 justify-content: space-around;
             }
 
-            .img1:hover,.img2:hover,.img3:hover,.img4:hover,.img5:hover,.koaPic:hover{
-                transition:none;
+            .img1:hover,.img2:hover,.img3:hover,.img4:hover,.img5:hover{
+                transition:none; 
+            }
+            .koaPic{
+                transition: none;
+            }
+            .koaPic:hover{
+                transform: scale(1)
             }
         }
 
