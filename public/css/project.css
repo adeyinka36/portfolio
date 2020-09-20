@@ -403,6 +403,10 @@ transition:transform 1s ease-in;
                 display: flex;
                 justify-content: space-around;
             }
+
+            .img1:hover,.img2:hover,.img3:hover,.img4:hover,.img5:hover,.koaPic:hover{
+                transition:none;
+            }
         }
 
 
