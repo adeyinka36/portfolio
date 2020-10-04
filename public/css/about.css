@@ -103,6 +103,7 @@ li a{
     }
     body{
         width: 100vw;
+        overflow-x: hidden;
     }
     .container{
         width: 100%;
