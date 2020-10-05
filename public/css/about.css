@@ -11,6 +11,7 @@ body{
     background-position:center ;
     background-size: cover;
     height:100vh;
+    width:100vw;
    
 }
 .container{
@@ -101,11 +102,5 @@ li a{
     p{
         font-size: 1rem;
     }
-    body{
-        width:100vw;
-        
-    }
-    .container{
-        width: 100vw;
-    }
+    
 }
