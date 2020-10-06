@@ -110,7 +110,7 @@ li a{
 
 
 
- @media(min-width:1100px){
+ /* @media(min-width:1100px){
     .info{
         margin-top: 20rem;
         margin-bottom:20rem;
@@ -133,8 +133,8 @@ li a{
 
    .skills ul, .contact ul{
        font-size: 5.5rem;
-   }
-}
+   } */
+/* } */
 
 
  
