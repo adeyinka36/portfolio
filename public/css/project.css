@@ -124,7 +124,7 @@ transition:transform 1s ease-in;
 }
 
 .img1:hover{
-    transform:translate(15rem) scale(1.5);
+    transform:translate(8rem) scale(1.2);
     cursor: pointer;
     animation-duration: 5s;
     background-image:url('../images/essence2.png');
@@ -139,7 +139,7 @@ transition:transform 1s ease-in;
     }
     
 .img2:hover{
-        transform:translate(15rem) scale(1.5);
+        transform:translate(8rem) scale(1.2);
         cursor: pointer;
         animation-duration: 5s;
         background-image:url('../images/library1\ \(2\).png');
@@ -155,7 +155,7 @@ transition:transform 1s ease-in;
         
         .img3:hover{
             cursor: pointer;
-            transform:translate(15rem) scale(1.5);
+            transform:translate(8rem) scale(1.2);
             animation-duration: 5s;
             background-image:url('../images/phrase2.png');
             
@@ -170,7 +170,7 @@ transition:transform 1s ease-in;
             
             .img4:hover{
                 cursor: pointer;
-                transform:translate(15rem,-10rem) scale(1.5);
+                transform:translate(8rem,-5rem) scale(1.2);
                 animation-duration: 5s;
                 background-image:url('../images/form3.png');
                 
@@ -185,7 +185,7 @@ transition:transform 1s ease-in;
                 
 .img5:hover{
                     cursor: pointer;
-                    transform:translate(15rem,-10rem) scale(1.5);
+                    transform:translate(8rem,-5rem) scale(1.2);
                     animation-duration: 5s;
                     background-image:url('../images/animals.png');
                     
@@ -201,7 +201,7 @@ transition:transform 1s ease-in;
                     
     .koaPic:hover{
                         cursor: pointer;
-                        transform:translate(15rem,-10rem) scale(1.5);
+                        transform:translate(8rem,-5rem) scale(1.2);
                         animation-duration: 5s;
                         background-image:url('../images/koa1.png');
                         
@@ -362,7 +362,7 @@ transition:transform 1s ease-in;
                         
         .img5:hover{
                             cursor: pointer;
-                            transform:translate(15rem,-10rem) scale(1.5);
+                            transform:translate(8rem,-5rem) scale(1.2);
                             animation-duration: 5s;
                             background-image:url('../images/animals.png');
                             
@@ -378,7 +378,7 @@ transition:transform 1s ease-in;
                             
             .koaPic:hover{
                                 cursor: pointer;
-                                transform:translate(15rem,-10rem) scale(1.5);
+                                transform:translate(8rem,5rem) scale(1.2);
                                 animation-duration: 5s;
                                 background-image:url('../images/koa1.png');
                                 
