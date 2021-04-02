@@ -1,0 +1,212 @@
+*{
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+a:hover{
+    color: lightgray;
+}
+body{
+    background-color:black;
+
+}
+
+.projects-container ul{
+    height: 10vh;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+.projects-container ul li{
+    display: inline-block;
+    color: white;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 1.5rem;
+    
+    
+    
+    
+}
+
+.project2{
+    font-family: 'Teko', sans-serif;
+    color:white;
+    padding:.25rem;
+    margin-bottom: 6.5rem;
+}
+.project2 h3 {
+    font-size: 1.75rem;
+    letter-spacing: .1rem;
+    text-align: center;
+}
+.project2 p{
+    font-size: 1.4rem;
+}
+.display-desc span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.display-desc span:first-child{
+    margin-bottom: .25rem;
+}
+.tools{
+    display: flex;
+    font-size: 1.4rem;
+    letter-spacing: .1rem;   
+}
+.tools span{
+    padding: .15rem;
+}
+.display-desc .link{
+    font-size: 1.75rem;
+    letter-spacing: .1rem;
+    background-color: darkcyan;
+}
+
+.display{
+    width: 70%;
+    height: 60vh;
+    transition: 500ms;
+    margin:.5rem auto;
+
+}
+.display:hover{
+    cursor: pointer;
+    transform: scale(1.025);
+}
+
+/* images */
+.project2 .dis-laravel{
+    background-image: url("../images/pet1.png");
+    background-size: cover;
+    background-position: center;
+   
+}
+
+.project2 .dis-laravel:hover{
+    background-image: url("../images/pet2.png");
+    background-size: cover;
+    background-position: center;
+   
+}
+
+
+.project2 .dis-ecommerce{
+    background-image: url("../images/ques1.png");
+    background-size: cover;
+    background-position: center;
+    
+} 
+
+.project2 .dis-ecommerce:hover{
+    background-image: url("../images/ques2.png");
+    background-size: cover;
+    background-position: center;
+    
+} 
+ .project2 .dis-events{
+    background-image: url("../images/koa1.png");
+    background-size: cover;
+    background-position: center;
+
+ }
+ .project2 .dis-events:hover{
+    background-image: url("../images/koa2.png");
+    background-size: cover;
+    background-position: center;
+
+ }
+.dis-school{
+    background-image: url("../images/school1.png");
+    background-size: cover;
+    background-position: center;
+}
+.dis-school:hover{
+    background-image: url("../images/school3.png");
+    background-size: cover;
+    background-position: center;
+}
+.dis-barber{
+    background-image: url("../images/barbar2.png");
+    background-size: cover;
+    background-position: center;
+}
+.dis-barber:hover{
+    background-image: url("../images/barber1.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.display{
+    object-fit: contain;
+    background-repeat: no-repeat;
+}
+
+
+@media(min-width:600px){
+    .link-con{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+   
+   .link{
+       width: 40%;
+       padding: 0;
+       margin:.2rem;
+   }
+
+   .project2 h3 {
+    font-size: 2.2rem;
+   
+}
+.project2 p{
+    letter-spacing: .15rem;
+    font-size: 1.75rem;
+}
+.tools span{
+    font-size: 2rem;
+    margin: .25rem;
+    
+}
+.tools span{
+    margin: .25rem;
+}
+}
+@media(min-width:1000px){
+    .project2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .project2 div{
+        width: 50%;
+    }
+
+    .project2 .display-desc{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+    }
+    .project2 .display{
+        margin: .5rem;
+
+    }
+    .project2 .tools {
+        width: 90%;
+    }
+
+    
+}
