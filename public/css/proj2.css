@@ -75,14 +75,11 @@ body{
 .display{
     width: 70%;
     height: 60vh;
-    transition: 500ms;
+    transition: 400ms;
     margin:.5rem auto;
 
 }
-.display:hover{
-    cursor: pointer;
-    transform: scale(1.025);
-}
+
 
 /* images */
 .project2 .dis-laravel{
