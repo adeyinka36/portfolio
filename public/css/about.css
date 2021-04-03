@@ -108,6 +108,11 @@ li a{
     }
  }
 
+ @media(min-width:1200){
+    .desc p{
+        padding:.5rem;
+    }
+ }
 
 
  /* @media(min-width:1100px){
