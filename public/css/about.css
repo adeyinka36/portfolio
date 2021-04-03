@@ -108,7 +108,7 @@ li a{
     }
  }
 
- @media(min-width:1200){
+ @media(min-width:1000px){
     .desc p{
         padding:.5rem;
     }
