@@ -112,13 +112,13 @@ body{
     
 } 
  .project2 .dis-events{
-    background-image: url("../images/chat_app1.png");
+    background-image: url("../images/main_chatapp.png");
     background-size: cover;
     background-position: center;
 
  }
  .project2 .dis-events:hover{
-    background-image: url("../images/chat_app2.png");
+    background-image: url("../images/chat_app1.png");
     background-size: cover;
     background-position: center;
 
