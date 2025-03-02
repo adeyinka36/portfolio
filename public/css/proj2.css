@@ -55,9 +55,10 @@ body{
     align-items: center;
    
 }
-.display-desc span:first-child{
+.display-desc span:not(:last-child) {
     margin-bottom: .25rem;
 }
+
 .tools{
     display: flex;
     font-size: 1.4rem;
@@ -98,49 +99,42 @@ body{
 
 
 .project2 .dis-ecommerce{
-    background-image: url("../images/ques1.png");
+    background-image: url("../images/savour-1.png");
     background-size: cover;
     background-position: center;
     
 } 
 
 .project2 .dis-ecommerce:hover{
-    background-image: url("../images/ques2.png");
+    background-image: url("../images/savour-2.png");
     background-size: cover;
     background-position: center;
     
 } 
  .project2 .dis-events{
-    background-image: url("../images/koa1.png");
+    background-image: url("../images/chat_app1.png");
     background-size: cover;
     background-position: center;
 
  }
  .project2 .dis-events:hover{
-    background-image: url("../images/koa2.png");
+    background-image: url("../images/chat_app2.png");
     background-size: cover;
     background-position: center;
 
  }
-.dis-school{
-    background-image: url("../images/school1.png");
-    background-size: cover;
-    background-position: center;
-}
-.dis-school:hover{
-    background-image: url("../images/school3.png");
-    background-size: cover;
-    background-position: center;
-}
-.dis-barber{
+
+.project2 .barber{
     background-image: url("../images/barbar2.png");
     background-size: cover;
     background-position: center;
+
 }
-.dis-barber:hover{
+.project2 .barber:hover{
     background-image: url("../images/barber1.png");
     background-size: cover;
     background-position: center;
+
 }
 
 .display{
@@ -155,11 +149,12 @@ body{
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
+        flex-wrap: wrap;
     }
    
    .link{
-       width: 40%;
-       padding: 0;
+       /*width: 40%;*/
+       padding: 0 1rem;
        margin:.2rem;
    }
 
